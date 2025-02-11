@@ -1,12 +1,19 @@
-import './App.css'
+import "./App.css";
+import Pagination from "./components/Pagination";
 
-const items = ['itemOne', 'itemTwo', 'itemThree', 'itemFour', 'itemFive', 'itemSix', 'itemSeven', 'itemEight'];
+const items = [
+	"itemOne",
+	"itemTwo",
+	"itemThree",
+	"itemFour",
+	"itemFive",
+	"itemSix",
+	"itemSeven",
+	"itemEight",
+];
 
 function App() {
-
-  return (
-        
-  )
+	return <Pagination items={items} itemsPerPage={2} />;
 }
 
-export default App
+export default App;

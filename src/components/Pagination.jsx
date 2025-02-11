@@ -18,7 +18,13 @@ const Pagination = ({ items, itemsPerPage }) => {
 	}
 
 	return (
-		
+		<div>
+			<ol>
+				{currentItems.map((item, index) => {
+					return <li key={index}>{item}</li>;
+				})}
+			</ol>
+		</div>
 	);
 };
 export default Pagination;

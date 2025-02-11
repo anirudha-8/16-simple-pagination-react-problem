@@ -24,6 +24,20 @@ const Pagination = ({ items, itemsPerPage }) => {
 					return <li key={index}>{item}</li>;
 				})}
 			</ol>
+			<hr />
+			<ul style={{ display: "flex", justifyContent: "space-around" }}>
+				{pageNumbers.map((pageNumber) => {
+					return (
+						<li
+							style={{ cursor: "pointer" }}
+							key={pageNumber}
+							onClick={() => setCurrentPage(pageNumber)}
+						>
+							Page {pageNumber}
+						</li>
+					);
+				})}
+			</ul>
 		</div>
 	);
 };

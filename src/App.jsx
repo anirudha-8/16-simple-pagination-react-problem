@@ -13,7 +13,7 @@ const items = [
 ];
 
 function App() {
-	return <Pagination items={items} itemsPerPage={2} />;
+	return <Pagination items={items} itemsPerPage={3} />;
 }
 
 export default App;

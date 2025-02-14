@@ -2,7 +2,7 @@
 
 ## ==> [Link to all problem set](https://github.com/anirudha-8/react.js-practical-problems.git)
 
-## ==> [🔥Live Demo](https://16-pagination-component.vercel.app/)
+## ==> [🔥Live Demo](https://16-simple-pagination-react-problem.vercel.app/)
 
 Welcome to the **sixteenth problem** of the React 30+ Practical Problems series! In this challenge, we will develop a pagination component that allows users to navigate through a large list of items efficiently.
 
